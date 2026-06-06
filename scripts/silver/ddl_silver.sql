@@ -23,6 +23,8 @@ IF OBJECT_ID ('silver.crm_prd_info' , 'U') IS NOT NULL
 CREATE TABLE silver.crm_prd_info (
 	prd_id INT,
 	prd_key NVARCHAR(50),
+	cat_id NVARCHAR(50),
+	sales_prd_key NVARCHAR(50),
 	prd_nm NVARCHAR(50),
 	prd_cost INT,
 	prd_line NVARCHAR(50),
@@ -41,9 +43,9 @@ CREATE TABLE silver.crm_sales_details (
 	sls_order_dt NVARCHAR(50),
 	sls_ship_dt NVARCHAR(50),
 	sls_due_dt NVARCHAR(50),
-	sls_sales INT,
-	sls_quantity INT,
-	sls_price INT,
+	sls_sales DATE,
+	sls_quantity DATE,
+	sls_price DATE,
 	dwh_create_date DATETIME2 DEFAULT GETDATE()
 );
 
