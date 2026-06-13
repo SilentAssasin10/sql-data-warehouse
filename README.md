@@ -29,7 +29,21 @@ This project involves:
 - Data Engineering  
 - ETL Pipeline Developer  
 - Data Modeling  
-- Data Analytics  
+- Data Analytics
+
+Technologies Used:
+- SQL Server
+- SSMS
+- T-SQL
+- Git
+- GitHub
+
+Concepts:
+- Data Warehousing
+- ELT
+- Star Schema
+- Data Modeling
+- Data Quality
 
 ---
 
